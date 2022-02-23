@@ -4,8 +4,21 @@ Specify the link of the video, the starting timestamp (HH:MM:SS) and the time to
 
 
 
-Example: Enter the video link: <url here>
+Example: 
+
+
+
+Enter the video link: (url here)
+
+  
+  
+  
+  
 Enter the starting time: 00:00
+
+  
+  
+  
 Enter the time to seek: 00:10
 
 
