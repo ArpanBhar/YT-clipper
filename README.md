@@ -11,7 +11,7 @@ Example: C:\Users\Username\Desktop\
 
 
 
-#Requirements
+# Requirements
 
 
 Download the requirements.txt file
