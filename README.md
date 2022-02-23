@@ -4,25 +4,6 @@ Specify the link of the video, the starting timestamp (HH:MM:SS) and the time to
 
 
 
-Example: 
-
-
-
-Enter the video link: (url here)
-
-  
-  
-  
-  
-Enter the starting time: 00:00
-
-  
-  
-  
-Enter the time to seek: 00:10
-
-
-
 It is recommended to start the python script from the directory in which you want the output file. Example: C:\Users\Username\Desktop\
 
 
