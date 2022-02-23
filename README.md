@@ -8,3 +8,13 @@ It is recommended to start the python script from the directory in which you wan
 
 
 Example: C:\Users\Username\Desktop\
+
+
+
+#Requirements
+
+
+Download the requirements.txt file
+
+
+Open CMD in that directory and type "pip install -r requirements.txt"
