@@ -11,6 +11,11 @@ It is recommended to start the python script from the directory in which you wan
 # Requirements
 
 
+Python and FFmpeg installed and added to path.
+
+
+
+YT-dlp:
 
 
 Open CMD and type "pip install yt-dlp"
