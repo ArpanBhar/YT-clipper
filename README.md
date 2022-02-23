@@ -7,4 +7,4 @@ It is recommended to start the python script from the directory in which you wan
 
 
 
-Example: C:\Users\<Username>\Desktop\
+Example: C:\Users\Username\Desktop\
