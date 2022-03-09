@@ -12,7 +12,7 @@ def rs(n):
         global passed
         passed = True
     except:
-        diff = "00:00"
+        diff = ":".join(n)
         passed = False
     return diff
 def diff(n,z):
@@ -29,5 +29,5 @@ timestamp = input("Enter the starting time: ")
 seek = input("Enter the ending time: ")
 x = os.popen(f"yt-dlp --youtube-skip-dash-manifest -g {link}").read()
 x,y = x.split()
-cmd = "-ss 30" if rs(timestamp) != "00:00" or (rs(timestamp) == "00:00" and passed == True) else ""
+cmd = "-ss 30" if rs(timestamp) != timestamp or (rs(timestamp) == timestamp and passed == True) else ""
 os.system(f"ffmpeg -ss {rs(timestamp)} -i \"{x}\" -ss {rs(timestamp)} -i \"{y}\" -map 0:v -map 1:a {cmd} -t {diff(seek,timestamp)} -c:v libx264 -c:a aac output.mp4")
